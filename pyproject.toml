@@ -1,0 +1,20 @@
+[project]
+name = "omie-py"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Murillo Bianconi", email = "murillo.bianconi@buser.com.br" } 
+]
+requires-python = ">=3.11"
+dependencies = [
+    "zeep>=4.3.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "ruff>=0.6.9",
+]
